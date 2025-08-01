@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d99;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+/* Header/Navbar */
+.site-header {
+    background: linear-gradient(to right, #800442, #400341);
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header-content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin: 0;
+}
+
+.main-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #002f6c;
+}
+/* Dashboard Styles */
+.dashboard-container {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+
+.dashboard-container h2 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.dashboard-container p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.dashboard-actions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-actions li {
+    margin-bottom: 20px;
+}
+
+.dashboard-actions a {
+    color: #0066cc;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.dashboard-actions a:hover {
+    color: #004999;
+    text-decoration: underline;
+}
+
+.description {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.footer-message {
+    color: gray;
+    font-style: italic;
+    margin-top: 30px;
+    text-align: center;
+}
